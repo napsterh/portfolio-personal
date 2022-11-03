@@ -982,7 +982,7 @@ section {
 }
 @media screen and (max-width: 700px) {
   .section {
-    padding: 7rem 6rem;
+    padding: 7rem 2rem;
   }
   .about-stats .progress-bars {
     grid-template-columns: 1fr;
@@ -995,5 +995,8 @@ section {
   }
   .main-title h2 .bg-text {
     font-size: 4rem;
+  }
+  .header-content .left-contact .contact-icons {
+    margin: 0rem auto 2rem;
   }
 }/*# sourceMappingURL=styles.css.map */
