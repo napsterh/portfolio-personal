@@ -42,4 +42,15 @@ function PageTransitions(){
     })
 }
 
+$(document).ready(function(){
+    $(".portfolio-item").slice(0, 4).show();
+    $("#loadMore").on("click", function(e){
+        e.preventDefault();
+        $(".portfolio-item:hidden").slice(0, 4).slideDown();
+        if($(".portfolio-item:hidden").length == 0) {
+            $("#loadMore").text("No Content").addClass("noContent");
+        }
+        });
+    })
+
 PageTransitions();
