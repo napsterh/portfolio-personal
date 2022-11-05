@@ -55,9 +55,9 @@
         // padding: 7rem 11rem;
     }
     .contact-content-con{
-        flex-direction: column;
+        // flex-direction: column;
         .right-contact{
-            margin-left: 0;
+            margin-left: 30px;
             margin-top: 2.5rem;
         }
     }
@@ -154,6 +154,9 @@
         .control{
             margin: .6rem 1rem !important;
         }
+    }
+    .contact-content-con{
+        flex-direction: column;
     }
 }
 
