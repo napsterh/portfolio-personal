@@ -558,6 +558,8 @@ section{
       height: 100%;
       // object-fit: cover;
       border-radius: 15px;
+      max-height: 14rem;
+      object-fit: fill;
     }
     .hover-items{
       width: 100%;
