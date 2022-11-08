@@ -863,7 +863,7 @@ section {
   }
   .timeline {
     grid-template-columns: 1fr;
-    padding-bottom: 6rem;
+    margin: auto 2rem;
   }
   .portfolios {
     grid-template-columns: 1fr;
@@ -905,15 +905,17 @@ section {
 @media screen and (max-width: 1070px) {
   .about-container {
     grid-template-columns: 1fr;
+    margin-left: 2rem;
+    margin-right: 1rem;
   }
   .about-container .right-about {
     padding-top: 2.5rem;
   }
   .portfolios {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .blogs {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .main-title h2 {
     font-size: 4rem;
@@ -933,7 +935,7 @@ section {
     padding: 0;
   }
   header .right-header {
-    padding: 0 !important;
+    padding: 2rem 0rem !important;
   }
   .theme-btn {
     width: 50px;
@@ -974,7 +976,7 @@ section {
     background-color: var(--color-grey-5);
   }
   .controlls .control {
-    margin: 0.6rem 1rem !important;
+    margin: 0.6rem 0.5rem !important;
   }
   .contact-content-con {
     flex-direction: column;
@@ -982,7 +984,7 @@ section {
 }
 @media screen and (max-width: 700px) {
   .section {
-    padding: 7rem 2rem;
+    padding: 7rem 1rem;
   }
   .about-stats .progress-bars {
     grid-template-columns: 1fr;
@@ -997,6 +999,6 @@ section {
     font-size: 4rem;
   }
   .header-content .left-contact .contact-icons {
-    margin: 0rem auto 2rem;
+    margin: 0rem 0rem 0.5rem -0.5rem;
   }
 }/*# sourceMappingURL=styles.css.map */
