@@ -563,9 +563,7 @@ section {
 }
 .portfolios .portfolio-item img {
   width: 100%;
-  height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  height: 100%;
   border-radius: 15px;
 }
 .portfolios .portfolio-item .hover-items {
@@ -913,6 +911,7 @@ section {
   }
   .portfolios {
     grid-template-columns: 1fr;
+    margin: 2rem 1rem 1rem;
   }
   .blogs {
     grid-template-columns: 1fr;
