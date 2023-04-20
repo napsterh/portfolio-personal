@@ -38,7 +38,7 @@
 
 body {
   background-color: var(--color-black);
-  font-family: "Source Code Pro", monospace;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.1rem;
   color: var(--color-black);
   transition: all 0.4s ease-in-out;
@@ -53,7 +53,7 @@ a {
 
 header {
   min-height: 100vh;
-  font-family: "Source code Pro", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: var(--color-white);
   overflow: hidden;
 }
@@ -159,8 +159,8 @@ section {
 .theme-btn {
   top: 5%;
   right: 3%;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   background-color: var(--color-grey-4);
   cursor: pointer;
@@ -175,6 +175,30 @@ section {
   transform: translateY(-3px);
 }
 .theme-btn i {
+  font-size: 1.4rem;
+  color: var(--color-grey-2);
+  pointer-events: none;
+}
+
+.lang-btn {
+  top: 5%;
+  right: 7.5%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--color-grey-4);
+  cursor: pointer;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.1s ease-in-out;
+}
+.lang-btn:active {
+  transform: translateY(-3px);
+}
+.lang-btn i {
   font-size: 1.4rem;
   color: var(--color-grey-2);
   pointer-events: none;
@@ -942,6 +966,13 @@ section {
   .theme-btn {
     width: 50px;
     height: 50px;
+  }
+  .lang-btn{
+    width: 50px;
+    height: 50px;
+    right: 13px;
+    top: 105px;
+
   }
   .header-content {
     grid-template-columns: 1fr;

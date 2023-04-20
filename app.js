@@ -40,7 +40,25 @@ function PageTransitions(){
         let element = document.body;
         element.classList.toggle('light-mode');
     })
-}
 
+    //toggle lang
+    const langBtn = document.querySelector('.lang-btn');
+    let idiomaActual = "español";
+    langBtn.addEventListener('click', () => {
+        const nameTitle = document.getElementById("name");
+        const cv = document.getElementById("cv");
+        
+        if (idiomaActual === "español") {
+            nameTitle.innerHTML = `Hi, I'm <span>Homer 🚀</span>`;
+            cv.innerHTML = `Download CV`;
+            idiomaActual = "inglés";
+        } else {
+            nameTitle.innerHTML = `Hola, soy <span>Homer 🚀</span>`;
+            cv.innerHTML = `Descargar CV`;
+            idiomaActual = "español";
+        }
+
+    })
+}
 
 PageTransitions();
